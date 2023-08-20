@@ -1,0 +1,33 @@
+	    .header1
+		{
+			color: black;
+			font-size: 70px;
+			background: silver;
+			text-align: center;
+			border: black;
+		}
+
+		#header2
+		{
+			color: silver;
+			font-size: 40px;
+			background: black;
+			text-align: center;
+			border: silver;
+		
+		}
+
+		.para1
+		{
+			color: black;
+			text-align: justify;
+			background: silver;
+		}
+
+		.para2
+		{
+			color: silver;
+			text-align: justify;
+			background: black;
+
+		}
