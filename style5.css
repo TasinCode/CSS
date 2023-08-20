@@ -1,0 +1,36 @@
+h1{
+	background-color: black;
+	color: blue;
+}
+
+#para1{
+	background-color: blue;
+	color: silver;
+	font-size: 25px;
+}
+
+.para2{
+	background-color: silver;
+	color: blue;
+}
+
+.para3{
+	font-size: 30px;
+}
+
+*{
+	background-color: black;
+} 
+
+.para4,h2{
+	background-color: silver;
+	font-size: 23px;
+}
+
+
+
+div + p{
+	font-size: 30px;
+	background-color: blue;
+	color: gold;
+}
