@@ -1,0 +1,19 @@
+		h1{
+			color: red;
+			font-size: 70px;
+			background: blue;
+			text-align: center;
+		}
+
+		h2{
+			color: silver;
+			font-size: 50px;
+			background: black;
+			text-align: center;
+		
+		}
+
+		p{
+			color: black;
+			text-align: justify;
+		}
