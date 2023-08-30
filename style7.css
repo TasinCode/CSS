@@ -1,0 +1,39 @@
+body{
+	background: silver;
+}
+span{
+	color: white;
+	font-size: 5rem;
+}
+
+p{
+	color: red;
+	font-size: ;
+}
+
+.hello1{
+	color: silver;
+	background: black;
+	margin: 100px 60px 100px 100px;
+	padding: 30px 40px 30px 40px;
+	width: 180px;
+	text-align: center;
+	border: 10px blue solid;
+	border-radius: 20px;
+}
+
+.hello2{
+	color: white;
+	background: navy;
+	margin: 100px 50px 80px 150px;
+	padding: 20px 40px 20px 40px;
+	width: 160px;
+	text-align: center;
+	border-left: 10px white dotted;
+	border-right: 10px white dotted;
+	border-top: 10px red double;
+	border-bottom-width: 10px;
+	border-bottom-color: red;
+	border-bottom-style: double ;
+
+}
