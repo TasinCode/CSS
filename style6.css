@@ -1,0 +1,33 @@
+.font-style{
+    
+    text-align: center;
+	font-size: 50px;
+	font-family:'Tulpen One', cursive;
+	font-style: italic;
+	font-weight: bold;
+	color: Blue;
+
+	text-decoration: underline;
+	text-shadow: 5px 4px silver;
+
+
+}
+
+.para-style{
+	text-indent: 50px;
+	color: white;
+	text-align: justify;
+	text-transform: uppercase;
+	word-spacing: 3px;
+
+}
+
+body {
+
+background: rgb(69,72,77);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+
+}
