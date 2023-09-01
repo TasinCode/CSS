@@ -1,0 +1,16 @@
+h1{
+	background: red; 
+}
+
+h2{
+	background: green;
+	display: inline;
+}
+span{
+	background: blue;
+}
+.p1{
+    max-width: 700px ;
+    margin: auto;
+    border: 5px red solid;
+}
