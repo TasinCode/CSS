@@ -1,0 +1,18 @@
+body{
+
+	font-size: 20px;
+	color: white;
+
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-color: hotpink;
+	
+}
+
+.gradient-style{
+	height: 400px;
+	width: 100%;
+	background-image: linear-gradient(to right, pink, green, blue,yellow);
+	background-image: radial-gradient(circle, yellow,hotpink, blue );
