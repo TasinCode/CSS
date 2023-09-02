@@ -1,0 +1,20 @@
+.div1{
+	background: yellow;
+	height: 200px;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 5px solid blue;
+	float: left;
+}
+
+.div2{
+	background: blue;
+	height: 200px;
+	width: 50%;
+	float: left;
+	opacity: 0.5;
+}
+.div2:hover{
+	opacity: 1 ;
+}
