@@ -1,0 +1,50 @@
+#s1{
+
+	float: left;
+	background: orange;
+}
+
+#s2{
+
+	float: right;
+	background: red;
+}
+#clear-div{
+
+	clear: both;
+
+}
+#s3{
+
+	background: yellow;
+
+}
+
+#nav-menu{
+
+	width: 500px;
+	height: 80px;
+	background: navy;
+	margin: 0 auto;
+
+}
+
+#nav-menu ul{}
+#nav-menu ul li{
+
+	list-style-type: none;
+	margin: 20px;
+	float: left;
+}
+#nav-menu ul li a{
+
+	text-decoration: none;
+	font-size: 25px;
+	color: silver;
+	text-align: center;
+	cursor: pointer;
+}
+
+#nav-menu ul li a:hover{
+	text-decoration: underline;
+}
