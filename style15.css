@@ -1,0 +1,50 @@
+.div1{
+
+	border: 3px solid green;
+	padding: 5px;
+	position: static;
+	bottom: 20px;
+}
+
+.div2{
+
+	border: 3px solid red;
+	padding: 5px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+
+}
+
+.nav-div{
+
+	border: 3px solid blue;
+	padding: 2px;
+	width: 50px;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	
+}
+
+.div3{
+
+	border: 3px solid hotpink;
+	padding: 5px;
+	position: relative;
+	height: 300px;
+
+}
+
+
+.div4{
+
+	border: 3px solid yellow;
+	padding: 5px;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+
+}
