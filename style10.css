@@ -10,3 +10,11 @@ h1{
 #heading{
 	background: green;
 }
+
+/* specificity calculator */
+/* a = number of id */
+/* b = number of class, pseduo classes, attributes */
+/* c = number of elements, pesudo elements */
+
+a=0 b=0 c=1 
+
