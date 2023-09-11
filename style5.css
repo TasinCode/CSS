@@ -27,7 +27,17 @@ h1{
 	font-size: 23px;
 }
 
+div > p{
+	font-size: 30px;
+	background-color: blue;
+	color: gold;
+}
 
+div ~ p{
+	font-size: 30px;
+	background-color: blue;
+	color: gold;
+}
 
 div + p{
 	font-size: 30px;
