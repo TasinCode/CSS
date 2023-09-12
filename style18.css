@@ -1,0 +1,33 @@
+.card{
+
+	width: 300px;
+	margin: 10px;
+	box-sizing: border-box;
+	box-shadow: 1px 2px 4px black;
+
+}
+
+.img-style{
+	width: 30%;
+}
+
+.card-body{
+	padding: 5px;
+	background: #9DB5DF;
+}
+
+.card-title{
+	font-size: 2rem;
+	text-align: center;
+}
+
+.card-desc{
+	text-align: justify;
+	line-height: 1.5;
+	color: white;
+
+}
+
+.card:hover{
+	box-shadow: 6px 12px 10px white;
+}
