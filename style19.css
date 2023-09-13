@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+}
+.calculator{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 350px;
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 white;
+	transition: 0.3s;
+	font-size: 0;
+}
+
+.calculator:hover{
+	box-shadow: 0 16px 32px 0 black;
+}
+.cal-head #result{
+	height:100px;
+	width: 335px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 5px;
+	letter-spacing: 2px;
+}
+
+.cal-body .btn{
+	width: 87px;
+	height: 70px;
+	color: white;
+	background-color: #1F2326;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.btn-style{
+	background-color: #5F49A7;
+	width: 87px;
+	height: 70px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.btn:hover{
+	background-color: pink;
+}
+
+.btn-style:hover{
+	background-color: red;
+}
+
+.btn-dif-style:hover{
+	background-color: red;
+}
