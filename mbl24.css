@@ -1,0 +1,17 @@
+[class*="col-"]{
+	width: 100%;
+}
+
+.nav-menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.6rem;
+	padding: 10px;
+	margin: 10px;
+	background: blue;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+ 

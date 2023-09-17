@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+	text-align: center;
+	background: blue;
+	color: white;
+	padding: 1% 5%;
+
+}
+
+.nav-menu{
+	background: red;
+	padding: 1% 5%;
+	text-align: center;
+	
+}
+
+.nav-menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	display: block;
+	padding: 10px;
+
+}
+
+.main{
+	background: orange;
+	padding: 5px;
+	text-align: justify;
+	
+	
+}
+
+.main h1{
+	text-align: center;
+	border: 5px solid black;
+}
+
+.aside-nav{
+	color: white;
+	background: green;
+	text-align: center;
+	
+
+
+}
+
+.footer{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 5px;
+	width: 100%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+[class*="col-"]{
+	float: left;
+	padding: 10px;
+}
+
+.row::after{
+      content: '';
+      clear: both;
+      display: table;
+}
+
+@media screen and (max-width: 900px){
+	[class*="col-"]{
+	width: 100%;
+}
+
+.nav-menu {
+	background: silver;
+
+}
+
+.nav-menu a{
+	color: silver;
+	text-decoration: none;
+	font-size: 1.6rem;
+	padding: 10px;
+	margin: 10px;
+	background: black;
+	text-align: center;
+	font-weight: bold;
+
+}
+}
