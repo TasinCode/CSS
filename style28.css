@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+input/**[type="text,password"]**/{
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 1rem;
+	margin: 10px 0;
+
+	border: 3px solid blue;
+	border-radius: 50px;
+	background: skyblue;
+}
+
+#search{
+	background-image: url("search.png");
+	background-repeat: no-repeat ;
+	background-position: 10px 14px;
+
+	font-size: 1rem;
+	padding: 15px 40px;
+	background-color: white;
+	width: 150px;
+	transition: width 0.5s ease-in-out;
+	
+}
+
+#search:focus{
+	background-color: brown;
+	width: 100%;
+	color: white;
+	font-weight: bolder;
+}
+
+textarea{
+	resize: none;
+	width: 50%;
+	padding: 20px;
+	border: 2px solid gray;
+	border-radius: 30px;
+	margin: 30px 0 10px;
+}
+
+input[type="button"]{
+	width: 10%;
+	border: none;
+	background-color: brown;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0 auto;
+
+
+}
+
+input[type="reset"]{
+	width: 10%;
+	border: none;
+	background-color: brown;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0 auto;
+
+}
+
+select{
+	width: 50%;
+	padding: 10px;
+	border: none;
+	background-color: brown;
+	border-radius: 50px ;
+    margin: 30px 0 20px;
+}
