@@ -1,0 +1,49 @@
+*{
+
+	box-sizing: border-box;
+
+}
+
+.course-list{
+	background-color: greenyellow;
+	padding: 20px;
+	color: white;                                                                                                                                      
+}
+
+.course-list ul{
+
+list-style-type: circle;
+list-style-position: inside;
+list-style-image: url("tick.png");
+list-style: url("tick.png") inside circle ;
+
+}
+
+
+.list-2{
+	background-color: tomato;
+	padding: 20px;
+	color: white;                                                                                                                                      
+}
+
+.list-2 ul{
+	list-style-type: none;
+}
+
+.list-2 li{
+	font-size: 2rem;
+	color: silver;
+}
+
+
+.list-2 li::before{
+	content: '\f058';
+	font-family: 'Font Awesome 5 Free' ;
+	font-weight: bold;
+
+	display: inline-block;
+	margin: 10px 5px;
+	font-size: 2rem;
+	color: teal;
+
+}
